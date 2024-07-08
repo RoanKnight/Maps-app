@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Custom ignore
+backend/maps_api/maps_api/management/commands/reset_users.py

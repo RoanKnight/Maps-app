@@ -7,10 +7,10 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 443,
-    https: {
-      key: fs.readFileSync(path.resolve(__dirname, 'path/to/your/private.pem')),
-      cert: fs.readFileSync(path.resolve(__dirname, 'path/to/your/file.crt'))
-    }
+    port: 80,
+    // https: {
+    //   key: fs.readFileSync(path.resolve(__dirname, 'path/to/your/private.pem')),
+    //   cert: fs.readFileSync(path.resolve(__dirname, 'path/to/your/file.crt'))
+    // }
   }
 })
